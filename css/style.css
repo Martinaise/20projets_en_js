@@ -1,0 +1,23 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  /* pour que s'asaapte plus en responssive valeur min valeur préféreé valeur relatif à la valeur d'écran max */
+  padding: clamp(20px, 5vw, 50px) 10px 10px;
+}
+.container {
+    max-width: 850px;
+  background: #f1f1f1;
+  border: 1px solid #36363692;
+  padding: 25px;
+  margin:0 auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+}
