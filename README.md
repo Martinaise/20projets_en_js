@@ -32,6 +32,8 @@ Le but de ce projet est de coder un calculateur d'IMC à partir des valeurs rent
 3. Calculez l'IMC avec les valeurs rentrées.
 4. Calculez le rang de l'IMC par rapport à "IMCData"
 5. Remplissez l'interface en fonction des résultats
-   [image](assets/maquette.png)
+<br> 
+
+   maquette [image](assets/maquette.png)
 
 <br>
